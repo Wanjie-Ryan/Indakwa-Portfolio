@@ -63,7 +63,7 @@
     border-bottom-right-radius: 30%;
     /* border-bottom-left-radius: 30%; */
     z-index: -1; 
-    transition: transform 0.3s ease-in-out 0.2s;
+    /* transition: transform 0.3s ease-in-out 0.2s; */
     cursor: pointer;
 
   }
@@ -73,15 +73,13 @@
     height: 300px; 
     margin-top:40px;
     margin-left:20px;
-    border-radius: 100px;
+    border-radius: 150px;
     object-fit: cover;
-    transition: transform 0.3s ease-in-out 0.2s;
+    transition: transform 0.6s ease-in-out ;
     cursor: pointer;
   }
   
-  .image-shadow:hover .shadow {
-    transform: scale(1.1); /* Grow the shadow on hover */
-  }
+  
   
   .image-shadow:hover .intro-image {
     transform: scale(1.1); /* Grow the image on hover */
