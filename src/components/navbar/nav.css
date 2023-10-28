@@ -136,9 +136,9 @@
     position: fixed;
     left: 0;
     top: 0;
-    background:url('../../../Images/texture5.jpg');
-  background-repeat:no-repeat;
-  background-size:cover;
+    background: url("../../../Images/texture5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     transition: top 0.5s ease-in-out;
     z-index: 999;
     display: block;
@@ -169,15 +169,17 @@
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    gap:30px;
+    gap: 30px;
   }
 
-  .aside-links a{
-    color:white;
-    font-size:20px;
+  .aside-links a {
+    color: white;
+    font-size: 20px;
     text-decoration: none;
     cursor: pointer;
   }
 
-  .aside-links a:hover{color:beige;}
+  .aside-links a:hover {
+    color: beige;
+  }
 }
