@@ -1,0 +1,36 @@
+.services-section{
+    width:100%;
+    margin-top:150px;
+}
+
+.service-title{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+}
+
+.services-container{
+
+    margin-top:70px;
+    width:90%;
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.interest{
+
+  background: rgba(0, 0, 0, 0.5);
+  width:30%;
+  padding:20px;
+  color:white;
+
+
+}
+
+.title-service{
+    text-align:center;
+    font-weight:bold;
+}
