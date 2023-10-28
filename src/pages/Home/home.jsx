@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar/nav";
 import Home from "../../components/home/home";
 import About from '../../components/about/about'
 import Services from '../../components/services/services'
-
+import Gallery from '../../components/gallery/gallery'
 function Homepage() {
   return (
     <>
@@ -11,6 +11,7 @@ function Homepage() {
       <Home />
       <About/>
       <Services/>
+      <Gallery/>
     </>
   );
 }
