@@ -48,3 +48,15 @@
   text-align: center;
   font-weight: bold;
 }
+
+@media screen and (max-width: 568px) {
+  .services-container {
+    width: 100%;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  .interest {
+    width: 100%;
+  }
+}
