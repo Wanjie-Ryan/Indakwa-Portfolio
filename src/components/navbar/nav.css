@@ -48,6 +48,7 @@
     font-weight:600;
     cursor:pointer;
     font-size:18px;
+    text-decoration:none;
 
  }
 
@@ -57,6 +58,8 @@
     font-weight:600;
     cursor:pointer;
     font-size:18px;
+    text-decoration:none;
+
  }
 
  .service{
@@ -64,6 +67,8 @@
     font-weight:600;
     cursor:pointer;
     font-size:18px;
+    text-decoration:none;
+
  }
 
  .contact{
@@ -71,9 +76,11 @@
     font-weight:600;
     cursor:pointer;
     font-size:18px;
+    text-decoration:none;
+
  }
 
- .home> .home-p:hover{
+.home> .home-p:hover{
     color:beige;
 }
 
