@@ -1,21 +1,12 @@
-import React from 'react'
-import HomePageComponent from './pages/Home/home'
+import React from "react";
+import HomePageComponent from "./pages/Home/home";
 
-
-function App(){
-
-  return(
-
+function App() {
+  return (
     <>
-
-      <HomePageComponent/>
-
-
+      <HomePageComponent />
     </>
-
-
-  )
+  );
 }
 
-
-export default App
+export default App;
