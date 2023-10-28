@@ -18,7 +18,34 @@
 .site-logo {
   width: 30%;
 }
+.logo-container{
 
+position: relative;
+  width: 60px;
+  height: 70px;
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s; 
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused; 
+
+  &:hover {
+    animation-play-state: running;
+  }
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 .logo {
   cursor: pointer;
   width: 60px;
