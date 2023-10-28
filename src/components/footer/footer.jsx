@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-
+import {BsLinkedin, BsTwitter} from 'react-icons/bs'
 
 
 
@@ -15,6 +15,20 @@ function Footer(){
                 <div className='footer-container'>
 
                     <div className='footer-details'>
+
+                        <p className='footer-name'><i>Eugine Mushieni Indakwa</i> </p>
+
+                        <p className='footer-email'>indakwa@gmail.com</p>
+
+                        <div className='footer-links'>
+
+                        <a href='https://www.linkedin.com/in/eugine-mushieni-indakwa-8702b5244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target ='_blank' rel="noreferrer">
+
+<BsLinkedin/>
+</a>
+
+
+                        </div>
 
                     </div>
 
