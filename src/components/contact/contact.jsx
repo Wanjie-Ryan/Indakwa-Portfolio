@@ -20,14 +20,14 @@ function Contact(){
                             <div className='name'>
 
                             <label>Name</label>
-                            <input type='text'/>
+                            <input type='text' required placeholder='enter your name' className='name-text'/>
 
                         </div>
 
                         <div className='name'>
 
                             <label>Email</label>
-                            <input type='text'/>
+                            <input type='text' className='name-text' required placeholder='enter your email'/>
 
                         </div>
                         </div>
@@ -35,7 +35,7 @@ function Contact(){
                         <div className='name'>
 
                             <label>Message</label>
-                            <textarea />
+                            <textarea className='text-area' />
 
                         </div>
 

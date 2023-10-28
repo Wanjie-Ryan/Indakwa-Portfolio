@@ -35,3 +35,20 @@
     display: flex;
     gap:40px;
 }
+
+.name label{
+
+    color:white;
+    margin-right:20px;
+}
+
+.name-text{
+    width:250px;
+    padding:10px;
+    border-radius:5px;
+    outline:none;
+}
+
+.name-text::placeholder{
+    font-weight:600;
+}
