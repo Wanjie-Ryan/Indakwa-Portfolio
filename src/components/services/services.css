@@ -26,7 +26,29 @@
   width:30%;
   padding:20px;
   color:white;
+  transition: transform 0.6s ease-in-out;
+cursor:pointer;
 
+}
+
+.interest p:nth-child(odd) {
+
+    margin-top:20px;
+    font-size:15px;
+    text-align: center;
+
+  }
+
+  .interest p:nth-child(even) {
+    margin-top:20px;
+    font-size:15px;
+    text-align: center;
+
+  }
+
+.interest:hover{
+
+  transform: scale(1.1); /* Grow the image on hover */
 
 }
 
