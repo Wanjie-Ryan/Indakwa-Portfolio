@@ -22,10 +22,10 @@ function Navbar (){
 
                 <div className='nav-links'>
 
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Services</p>
-                    <p>Contact</p>
+                    <div className='home'><p className='home-p'>Home</p></div>
+                    <div className='home'><p className='about'>About</p></div>
+                    <div className='home'><p className='service'>Services</p></div>
+                    <div className='home'><p className='contact'>Contact</p></div>
 
 
                 </div>
