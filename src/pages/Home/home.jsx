@@ -4,6 +4,7 @@ import Home from "../../components/home/home";
 import About from '../../components/about/about'
 import Services from '../../components/services/services'
 import Gallery from '../../components/gallery/gallery'
+import Contact from '../../components/contact/contact'
 function Homepage() {
   return (
     <>
@@ -12,6 +13,7 @@ function Homepage() {
       <About/>
       <Services/>
       <Gallery/>
+      <Contact/>
     </>
   );
 }
