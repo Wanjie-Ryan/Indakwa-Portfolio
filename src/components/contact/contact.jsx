@@ -12,7 +12,7 @@ function Contact(){
 
                 <form className='contact-form'>
 
-                    <h1 className='send-message'>Send a message</h1>
+                    <h1 className='send-message'>Hey, Let's Engage</h1>
 
                     <div className='inputs'>
 
@@ -35,7 +35,7 @@ function Contact(){
                         <div className='name'>
 
                             <label>Message</label>
-                            <textarea className='text-area' />
+                            <textarea className='text-area' placeholder='enter the message' />
 
                         </div>
 
@@ -44,7 +44,7 @@ function Contact(){
 
                     </div>
 
-                    <div className='btn'><button type='submit'>Submit</button></div>
+                    <div className='btn'><button type='submit' className='btn-submit'>Submit</button></div>
 
 
 
