@@ -1,11 +1,39 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import "./contact.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import emailjs from "emailjs-com";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_qk9tbm9",
+        "template_7i9342m",
+        form.current,
+        "0f4fZFS8wPre3XSug"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          toast.success(`Message was sent successfully!`);
+        },
+        (error) => {
+          console.log(error.text);
+          toast.error(`Message was not sent, try again later!`);
+        }
+      );
+
+    e.target.reset();
+  };
   return (
     <>
       <section id="contact" className="contact-container">
-        <form className="contact-form">
+        <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <h1 className="send-message">Hey, Let's Engage</h1>
 
           <div className="inputs">
