@@ -22,7 +22,25 @@ function Footer() {
                 rel="noreferrer"
                 className="linked"
               >
-                <BsLinkedin />
+                <BsLinkedin className="footer-icons" />
+              </a>
+
+              <a
+                href="https://x.com/MushieniIndakwa?t=1OmTaVThx97U3XNb9IOHcg&s=09"
+                target="_blank"
+                rel="noreferrer"
+                className="linked"
+              >
+                <RiTwitterXFill  className="footer-icons"/>
+              </a>
+
+              <a
+                href="https://instagram.com/_indakwa_?igshid=OGQ5ZDc2ODk2ZA=="
+                target="_blank"
+                rel="noreferrer"
+                className="linked"
+              >
+                <BsInstagram className="footer-icons" />
               </a>
             </div>
           </div>
