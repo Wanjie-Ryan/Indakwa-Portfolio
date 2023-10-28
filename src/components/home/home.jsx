@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-
+import Indakwa from '../../Images/Indak-8.jpeg'
 
 
 function Home(){
@@ -26,6 +26,14 @@ function Home(){
                 </div>
 
                 <div className='image-intro'>
+
+                    <div className='image-shadow'>
+
+                        <div className='shadow'>
+
+                        </div>
+                        <img src={Indakwa} alt='' className='intro-image'/>
+                    </div>
 
 
                 </div>
