@@ -5,6 +5,7 @@ import About from '../../components/about/about'
 import Services from '../../components/services/services'
 import Gallery from '../../components/gallery/gallery'
 import Contact from '../../components/contact/contact'
+import Footer from '../../components/footer/footer'
 function Homepage() {
   return (
     <>
@@ -14,6 +15,7 @@ function Homepage() {
       <Services/>
       <Gallery/>
       <Contact/>
+      <Footer/>
     </>
   );
 }
