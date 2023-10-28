@@ -1,58 +1,50 @@
-.services-section{
-    width:100%;
-    margin-top:150px;
+.services-section {
+  width: 100%;
+  margin-top: 150px;
 }
 
-.service-title{
-    text-align:center;
-    color:white;
-    font-weight:bold;
+.service-title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
-.services-container{
-
-    margin-top:70px;
-    width:90%;
-    display:flex;
-    gap:20px;
-    justify-content: center;
-    margin-left:auto;
-    margin-right:auto;
+.services-container {
+  margin-top: 70px;
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.interest{
-
+.interest {
   background: rgba(0, 0, 0, 0.5);
-  width:30%;
-  padding:20px;
-  color:white;
+  width: 30%;
+  padding: 20px;
+  color: white;
   transition: transform 0.6s ease-in-out;
-cursor:pointer;
-
+  cursor: pointer;
 }
 
 .interest p:nth-child(odd) {
-
-    margin-top:20px;
-    font-size:15px;
-    text-align: center;
-
-  }
-
-  .interest p:nth-child(even) {
-    margin-top:20px;
-    font-size:15px;
-    text-align: center;
-
-  }
-
-.interest:hover{
-
-  transform: scale(1.1); /* Grow the image on hover */
-
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
 }
 
-.title-service{
-    text-align:center;
-    font-weight:bold;
+.interest p:nth-child(even) {
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.interest:hover {
+  transform: scale(1.1); /* Grow the image on hover */
+}
+
+.title-service {
+  text-align: center;
+  font-weight: bold;
 }

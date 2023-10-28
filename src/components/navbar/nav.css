@@ -2,6 +2,8 @@
   width: 100%;
   height: 2cm;
   border-bottom: 1px solid white;
+  /* position: fixed; */
+  /* top:-10px; */
 }
 
 .nav-container {
