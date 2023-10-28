@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { BsLinkedin, BsInstagram } from "react-icons/bs";
 import { RiTwitterXFill } from "react-icons/ri";
-
+import footerlogo from "../../Images/Logo.png";
 function Footer() {
   return (
     <>
@@ -13,7 +13,14 @@ function Footer() {
               <i>Eugine Mushieni Indakwa</i>{" "}
             </p>
 
-            <p className="footer-email">indakwa@gmail.com</p>
+            <a
+              href="mailto:indakwa@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="footer-email"
+            >
+              indakwa@gmail.com
+            </a>
 
             <div className="footer-links">
               <a
@@ -31,7 +38,7 @@ function Footer() {
                 rel="noreferrer"
                 className="linked"
               >
-                <RiTwitterXFill  className="footer-icons"/>
+                <RiTwitterXFill className="footer-icons" />
               </a>
 
               <a
@@ -45,9 +52,21 @@ function Footer() {
             </div>
           </div>
 
-          <div className="footer-logo"></div>
+          <div className="footer-logo">
+            <img src={footerlogo} alt="logo" className="footer-logo-img" />
+          </div>
 
-          <div className="footer-design"></div>
+          <div className="footer-design">
+            <p className="crafted">Crafted By</p>
+            <a
+              href="tel:+254791618714"
+              className="designer"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Wanjie Ryan
+            </a>
+          </div>
         </div>
       </section>
     </>
