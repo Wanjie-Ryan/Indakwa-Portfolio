@@ -1,89 +1,101 @@
-.home-section{
-
-    width:100%;
-    margin-top:80px;
+.home-section {
+  width: 100%;
+  margin-top: 80px;
 }
 
-.home-container{
-
-    width:90%;
-    margin-left:auto;
-    margin-right:auto;
-    display:flex;
-    flex-direction:row;
-   /* justify-content: space-between; */
-   gap:10rem;
+.home-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 10rem;
 }
 
-.home-description{
-
-    width:45%;
+.home-description {
+  width: 45%;
 }
 
-.h1-intro{
-
-    font-size:45px;
-    color:white;
-    font-weight:bold;
+.h1-intro {
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
 }
 
-.p-desc{
-    color:white;
-    margin-top:20px;
-    font-size:18px;
+.p-desc {
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
-.p-desc-law{
-
-    color:white;
-    margin-top:20px;
-    font-size:25px;
-    font-weight: 600;
-
+.p-desc-law {
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 600;
 }
 
-.image-intro{
-    width:45%;
+.image-intro {
+  width: 45%;
 }
 
 .image-shadow {
-    width: 400px; 
-    height:400px;
-    position: relative;
-    
-  }
-  
-  .shadow {
-    position: absolute;
-    content: '';
-    background: rgba(0, 0, 0, 0.5); 
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 30%;
-    border-bottom-right-radius: 30%;
-    /* border-bottom-left-radius: 30%; */
-    z-index: -1; 
-    /* transition: transform 0.3s ease-in-out 0.2s; */
-    cursor: pointer;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
 
-  }
-  
-  .intro-image {
-    width: 350px; 
-    height: 300px; 
-    margin-top:40px;
-    margin-left:20px;
-    border-radius: 150px;
-    object-fit: cover;
-    transition: transform 0.6s ease-in-out ;
-    cursor: pointer;
-  }
-  
-  
-  
-  .image-shadow:hover .intro-image {
-    transform: scale(1.1); /* Grow the image on hover */
-    width: 100%; /* Make the image fill the space left by the shadow */
-    height: 100%;
-  }
-  
+.shadow {
+  position: absolute;
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  /* border-bottom-left-radius: 30%; */
+  z-index: -1;
+  /* transition: transform 0.3s ease-in-out 0.2s; */
+  cursor: pointer;
+}
+
+.intro-image {
+  width: 350px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius: 150px;
+  object-fit: cover;
+  transition: transform 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.image-shadow:hover .intro-image {
+  transform: scale(1.1); /* Grow the image on hover */
+  width: 100%; /* Make the image fill the space left by the shadow */
+  height: 100%;
+}
+
+@media screen and (max-width:568px) {
+
+    .home-container{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .home-description{
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .image-intro{
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    
+}
