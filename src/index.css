@@ -5,15 +5,14 @@
   padding: 0;
   margin: 0;
   font-family: "Merriweather", serif;
- 
 }
 
-body{
-  background:url('../Images/texture8.jpg');
-  background-repeat:no-repeat;
+body {
+  background: url("../Images/texture8.jpg");
+  background-repeat: no-repeat;
   /* object-fit:cover; */
-  background-size:cover;
-  min-height:100vh;
+  background-size: cover;
+  min-height: 100vh;
   /* width:100%; */
 }
 

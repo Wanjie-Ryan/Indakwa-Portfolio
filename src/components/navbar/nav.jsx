@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./nav.css";
 import Logo from "../../Images/Logo.png";
 import { BiMenuAltRight } from "react-icons/bi";
 import { FaWindowClose } from "react-icons/fa";
 function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isNavScrolled, setIsNavScrolled] = useState(false);
 
   const openSidebar = () => {
     setIsSidebarOpen(true);
@@ -13,9 +14,25 @@ function Navbar() {
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsNavScrolled(true);
+      } else {
+        setIsNavScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <nav className="nav">
+      <nav className={`nav ${isNavScrolled ? "nav-scrolled" : ""}`}>
         <div className="nav-container">
           <div className="site-logo">
             <div className="logo-container">
