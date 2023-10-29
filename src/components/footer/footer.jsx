@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { BsLinkedin, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { RiTwitterXFill } from "react-icons/ri";
 import footerlogo from "../../Images/Logo.png";
 function Footer() {
@@ -39,6 +39,15 @@ function Footer() {
                 className="linked"
               >
                 <RiTwitterXFill className="footer-icons" />
+              </a>
+
+              <a
+                href="https://api.whatsapp.com/send?phone=254748273304"
+                target="_blank"
+                rel="noreferrer"
+                className="linked"
+              >
+                <BsWhatsapp className="footer-icons" />
               </a>
 
               <a

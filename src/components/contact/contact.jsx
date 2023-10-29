@@ -19,11 +19,11 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          // console.log(result.text);
           toast.success(`Message was sent successfully!`);
         },
         (error) => {
-          console.log(error.text);
+          // console.log(error.text);
           toast.error(`Message was not sent, try again later!`);
         }
       );
