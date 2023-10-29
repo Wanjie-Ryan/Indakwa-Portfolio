@@ -29,35 +29,35 @@ function Gallery() {
       image: require("../../Images/Indak-5.jpeg"),
     },
 
-    {
-      id: 6,
-      image: require("../../Images/Indak-6.jpeg"),
-    },
+    // {
+    //   id: 6,
+    //   image: require("../../Images/Indak-6.jpeg"),
+    // },
 
-    {
-      id: 7,
-      image: require("../../Images/Indak-7.jpeg"),
-    },
+    // {
+    //   id: 7,
+    //   image: require("../../Images/Indak-7.jpeg"),
+    // },
 
     {
       id: 8,
       image: require("../../Images/Indak-8.jpeg"),
     },
 
-    {
-      id: 9,
-      image: require("../../Images/Indak-9.jpeg"),
-    },
+    // {
+    //   id: 9,
+    //   image: require("../../Images/Indak-9.jpeg"),
+    // },
 
     {
       id: 10,
       image: require("../../Images/Indak-10.jpeg"),
     },
 
-    {
-      id: 11,
-      image: require("../../Images/Indak.jpeg"),
-    },
+    // {
+    //   id: 11,
+    //   image: require("../../Images/Indak.jpeg"),
+    // },
   ];
 
   return (
