@@ -57,3 +57,10 @@
   overflow-wrap: break-word;
   font-size: 17px;
 }
+
+@media screen and (max-width:568px){
+
+    .blog-image {
+        width:350px;
+    }
+}
